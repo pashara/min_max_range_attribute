@@ -6,7 +6,7 @@ namespace SneakySquirrelLabs.MinMaxRangeAttribute
 	/// <summary>
 	/// An attribute that simplifies defining bounded ranges (ranges with minimum and maximum limits) on the inspector.
 	/// </summary>
-	[AttributeUsage(AttributeTargets.Field)]
+	[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
 	public class MinMaxRangeAttribute : PropertyAttribute
 	{
 		#region Fields
